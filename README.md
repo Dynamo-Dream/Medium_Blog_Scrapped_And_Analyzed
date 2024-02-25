@@ -23,7 +23,7 @@ Utilizing web scraping techniques, I extracted data from the Medium blog of auth
 - Conducted unigram, bigram, and trigram analysis before and after removing stop words.
 - Explored the author's use of different parts of speech.
 - Utilized scattertext and spaCy to identify characteristic terms and associations within each tag.
-- Employed Count Vectorizer for topic modeling to uncover hidden themes in the author's blog.
+- Employed Count Vectorizer and LDA for topic modeling to uncover hidden themes in the author's blog.
 
 ## Models Used
 
