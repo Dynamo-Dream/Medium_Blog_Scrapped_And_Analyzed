@@ -34,12 +34,12 @@ Utilizing web scraping techniques, I extracted data from the Medium blog of auth
 - Trained Word2Vec embeddings on the data and utilized LSTM, CNN, and combinations of LSTM & GRU for tag classification. However, due to the small dataset size, these models did not perform optimally.
 
 ### Transformer
-- Utilized TF Bert for classification, albeit with limited training due to resource constraints.
+- Utilized TF Bert for classification.
 
 ## Model Evaluation
 - Multinomial Naive Bayes emerged as the top-performing model with an accuracy of approximately 87.7%. Most ML models achieved accuracies above 80%.
 - Deep learning models struggled to perform well, as anticipated given the small dataset size, achieving an accuracy of around 50%.
-- The TF Bert transformer model yielded an accuracy of approximately 70%.
+- The TF Bert transformer model yielded an accuracy of approximately 76.38%.
 
 ## Conclusion
 - The project successfully collected and analyzed data from the author's Medium blog.
